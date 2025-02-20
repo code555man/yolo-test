@@ -1,0 +1,13 @@
+train: /content/cricket-sort-yoloV7/cricket-train/train/images
+val: /content/cricket-sort-yoloV7/cricket-train/valid/images
+test: /content/cricket-sort-yoloV7/cricket-train/train/images
+
+nc: 2
+names: ['egg', 'no egg']
+
+roboflow:
+  workspace: cricket
+  project: sort cricket
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/milluki/xoat/dataset/5
